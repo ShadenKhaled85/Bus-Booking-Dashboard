@@ -12,6 +12,9 @@ app.use(cors());
 
 const auth = require("./routes/Auth");
 const busroutes = require("./routes/busroutes");
+const users = require("./routes/users");
+const requests = require("./routes/requests");
+
 
 
 app.listen(4000, "localhost", () => {
@@ -21,3 +24,5 @@ app.listen(4000, "localhost", () => {
 
 app.use("/auth", auth);
 app.use("/busroutes", busroutes);
+app.use("/users", users);
+app.use("/requests", requests);
