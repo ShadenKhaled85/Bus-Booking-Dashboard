@@ -14,7 +14,7 @@ router.get("", admin, async (req, res) => {
     search = `where name LIKE '%${req.query.search}%' `;
   }
   const requests =
-    await query(`SELECT requests.id,requests.user_id,requests.route_id,requests.status,users.name,routes.from,routes.to
+    await query(`SELECT requests.id,requests.user_id,requests.route_id,requests.status,users.name,routes.from,routes.to,routes.day,routes.time
     FROM requests
     LEFT JOIN users ON requests.user_id = users.id
     LEFT JOIN routes ON requests.route_id = routes.id
