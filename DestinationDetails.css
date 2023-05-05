@@ -1,0 +1,59 @@
+.luxor-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 300px;
+}
+
+.siwa-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.pyramids-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 350px;
+}
+
+.dahab-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.elsahel-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.aswan-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.sahl-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.sharm-image {
+    width: 100%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.reviews-container {
+    border-radius : 10px ;
+    border : 1px solid #ddd ;
+    margin: 3px ;
+    padding : 1rem ; 
+}
+
+.reviews-container p {
+    margin: 0 ;
+    
+}
